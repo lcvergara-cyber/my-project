@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lora Faye Vergara | IT Student & Aspiring IT Professional</title>
+  <meta name="description" content="Portfolio of Lora Faye Vergara, 3rd-year BSIT student at City College of Calamba.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="dots"></span></div>
+  <div id="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="#home">LFV.</a>
+      <nav id="nav" aria-label="Main">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch between light and dark mode"></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="hello">Hello, I'm</p>
+          <h1>Lora Faye Vergara</h1>
+          <h2 class="subtitle">
+            <span class="sr">Information Technology Student / Aspiring IT Professional</span>
+            <span class="typed" id="typed" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span>
+          </h2>
+          <p class="bio">I'm a 3rd-year Bachelor of Science in Information Technology student at City College of Calamba. I'm ready to use my skills to the best of my abilities, with a positive attitude and a willingness to learn new things.</p>
+          <div class="cta">
+            <a class="btn" href="#projects">View My Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="ring"><div class="portrait"><img src="profile.png" alt="Portrait of Lora Faye Vergara"></div></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">About Me</h2>
+        <p class="sub">A little about who I am.</p>
+        <div class="two-col">
+          <div>
+            <p>I am a college student pursuing a Bachelor of Science in Information Technology. I enjoy exploring technology, learning new things, and expressing my creativity through different activities and projects.</p>
+            <p>I consider myself a curious and motivated person who is always open to new experiences and opportunities. I enjoy improving my skills, discovering new interests, and challenging myself to grow both personally and academically.</p>
+          </div>
+          <div class="stack" id="details"></div>
+        </div>
+        <h3 class="group-title">Languages</h3>
+        <div class="chips" id="languages"></div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2 class="section-title">Skills</h2>
+        <p class="sub">The areas I work in.</p>
+        <h3 class="group-title">Technical and Hard Skills</h3>
+        <div class="grid g3" id="hard-skills"></div>
+        <h3 class="group-title">Core and Soft Skills</h3>
+        <div class="grid g5" id="soft-skills"></div>
+        <h3 class="group-title">Certifications</h3>
+      <div class="grid g3" id="certs"></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2 class="section-title">Projects</h2>
+        <p class="sub">Two system development projects I've worked on.</p>
+        <div class="grid g2" id="projects-list"></div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap">
+        <h2 class="section-title">Education</h2>
+        <p class="sub">My academic journey from elementary to college.</p>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2 class="section-title">Contact</h2>
+        <p class="sub">Have a question or an opportunity? Send me a message.</p>
+        <div class="grid g2">
+  <div class="card center">
+    <span class="tile" data-icon="mail"></span>
+    <h3>Email</h3>
+    <p><a id="email-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=lorafayev@gmail.com" target="_blank" rel="noopener">lorafayev@gmail.com</a></p>
+    <p class="muted">Calamba City, Laguna, Philippines</p>
+    <div class="cta">
+      <a class="btn small" href="https://mail.google.com/mail/?view=cm&fs=1&to=lorafayev@gmail.com" target="_blank" rel="noopener">Send an email</a>
+      <button class="btn ghost small" id="copy-email" type="button">Copy email</button>
+    </div>
+  </div>
+  <div class="card center">
+    <span class="tile" data-icon="github"></span>
+    <h3>GitHub</h3>
+    <p><a href="https://github.com/lcvergara-cyber/my-project" target="_blank" rel="noopener">github.com/lcvergara-cyber</a></p>
+    <p class="muted">See my code and projects</p>
+    <div class="cta">
+      <a class="btn small" href="https://github.com/lcvergara-cyber/my-project" target="_blank" rel="noopener">Visit GitHub</a>
+    </div>
+  </div>
+</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div><strong>Lora Faye Vergara</strong><br><span class="muted">© <span id="year"></span> Lora Faye Vergara. All rights reserved.</span></div>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="icon-btn" id="gh" href="https://github.com/lcvergara-cyber/my-project" target="_blank" rel="noopener" aria-label="GitHub"></a>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top icon-btn" id="to-top" aria-label="Back to top"></a>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
